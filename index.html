@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Crossfit</title>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper grey darken-4">
+        <a href="#!" class="brand-logo">CrossFit</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="">What is Crossfit?</a></li>
+          <li><a href="">Foundational movements</a></li>
+          <li><a href="">Find your gym</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="sass.html">What is Crossfit?</a></li>
+          <li><a href="badges.html">Foundational movements</a></li>
+          <li><a href="collapsible.html">Find your gym</a></li>
+          <li><a href="mobile.html">FAQ</a></li>
+          <li><a href="mobile.html">Contact us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="./styles/images/group-overhead-weights.png">
+          <div class="caption center-align">
+            <h3 class="pitch-header">CORE MOVEMENTS OF LIFE</h3>
+            <h5 class="pitch-subheader light">dramatic gains in fitness</h5>
+          </div>
+        </li>
+        <li>
+          <img src="./styles/images/Wide-short-Helping-Hand.jpg">
+          <div class="caption left-align">
+            <h3 class="pitch-header">COMMUNITY</h3>
+            <h5 class="pitch-subheader light">to make you your best</h5>
+          </div>
+        </li>
+        <li>
+          <img src="./styles/images/semi-wide-handstand.jpg">
+          <div class="caption right-align">
+            <h3 class="pitch-header">HIGH INTENSITY</h3>
+            <h5 class="pitch-subheader light">scaled to you</h5>
+          </div>
+        </li>
+        <li>
+          <img src="./styles/images/Data-Driven-800x400.jpg">
+          <div class="caption center-align">
+            <h3 class="pitch-header">DATA DRIVEN WORKOUTS</h3>
+            <h5 class="pitch-subheader light">precision and motivation</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="col s12 m6 offset-m3">
+        <div class="card-panel grey">
+          <div class="row">
+            <div class="col s3 m3">
+              <i class="medium material-icons">track_changes</i>
+            </div>
+            <div class="col s9 m9">
+              <h4>Find your gym</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s10 offset-s1 m8 offset-m2">
+              <a class="center-align waves-effect waves-light btn red">Use Current Location</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s2 offset-s5">
+              <h5 class="center-align">OR</h5>
+            </div>
+          </div>
+          <div class="row">
+            <form class="col s12" action="yourGym.html" method="get">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="zipcode" type="number" min="5" class="validate">
+                  <label class="center-align" for="zipcode" data-error="incorrect" data-success"right">ENTER ZIPCODE</label>
+                </div>
+                <div id="zip-submit"class="col s6">
+                  <a class="waves-effect waves-light btn red"><i class="small material-icons left">play_arrow</i>GO</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s10 offset-s1 m8 offset-m2">
+        <h3 class="center-align">Community Stories</h3>
+      </div>
+    </div>
+    <div id="stories-carousel" class="row">
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="./styles/images/stories-transformations.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="./styles/images/stories-older-athletes.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="./styles/images/stories-kids.jpg"></a>
+        <a class="carousel-item" href="#four!"><img src="./styles/images/stories-adaptive-athletes.jpg"></a>
+        <a class="carousel-item" href="#four!"><img src="./styles/images/stories-adaptive-athletes.jpg"></a>
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="http://lorempixel.com/100/190/nature/6">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

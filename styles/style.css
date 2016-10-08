@@ -1,0 +1,39 @@
+.pitch-header {
+  /*color: #FF951D;*/
+  color: black;
+  text-shadow: -.1rem -.1rem  0 #FF3700,
+                .1rem -.1rem  0 #FF3700,
+                -.1rem .1rem  0 #FF3700,
+                .1rem .1rem  0 #FF3700;
+}
+.pitch-subheader {
+  color: #FFC700;
+  text-shadow: .1rem .1rem black;
+}
+.input-field label {
+  color: black;
+}
+.input-field input[type=number]:focus + label {
+  color: black;
+}
+.input-field input[type=number] {
+  box-shadow: .1rem .1rem 0 0 gray inset;
+  border-bottom: none;
+}
+.input-field input[type=number]:focus {
+  border: .24rem solid #FFC700;
+  box-shadow: 0 .1rem .1rem 0 gray;
+}
+.card-panel {
+  padding: .5rem 0 0 0;
+}
+.carousel {
+  margin: 0;
+  padding: 0;
+}
+#stories-carousel {
+  margin: 0;
+}
+#zip-submit {
+  margin-top: 13px;
+}
