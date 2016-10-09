@@ -2,8 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Crossfit</title>
+    <title>CrossFit®</title>
     <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Oswald" rel="stylesheet">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link rel="stylesheet" href="./styles/style.css">
@@ -12,21 +13,21 @@
   <body>
     <nav>
       <div class="nav-wrapper grey darken-4">
-        <a href="#!" class="brand-logo">CrossFit</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a href="index.html" class="brand-logo">CrossFit</a>
+        <a data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="">What is Crossfit?</a></li>
-          <li><a href="">Foundational movements</a></li>
-          <li><a href="">Find your gym</a></li>
-          <li><a href="">FAQ</a></li>
-          <li><a href="">Contact us</a></li>
+          <li><a href="https://www.crossfit.com/what-is-crossfit">What is Crossfit?</a></li>
+          <li><a href="https://www.crossfit.com/exercisedemos/">Foundational movements</a></li>
+          <li><a href="https://map.crossfit.com/">Find your gym</a></li>
+          <li><a href="https://www.crossfit.com/cf/faq">FAQ</a></li>
+          <li><a href="https://www.crossfit.com/cf/contact">Contact us</a></li>
         </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="sass.html">What is Crossfit?</a></li>
-          <li><a href="badges.html">Foundational movements</a></li>
-          <li><a href="collapsible.html">Find your gym</a></li>
-          <li><a href="mobile.html">FAQ</a></li>
-          <li><a href="mobile.html">Contact us</a></li>
+        <ul class="side-nav grey" id="mobile-demo">
+          <li><a href="https://www.crossfit.com/what-is-crossfit">What is Crossfit?</a></li>
+          <li><a href="https://www.crossfit.com/exercisedemos/">Foundational movements</a></li>
+          <li><a href="https://map.crossfit.com/">Find your gym</a></li>
+          <li><a href="https://www.crossfit.com/cf/faq">FAQ</a></li>
+          <li><a href="https://www.crossfit.com/cf/contact">Contact us</a></li>
         </ul>
       </div>
     </nav>
@@ -35,28 +36,28 @@
         <li>
           <img src="./styles/images/group-overhead-weights.png">
           <div class="caption center-align">
-            <h3 class="pitch-header">CORE MOVEMENTS OF LIFE</h3>
+            <h4 class="pitch-header">CORE MOVEMENTS OF LIFE</h4>
             <h5 class="pitch-subheader light">dramatic gains in fitness</h5>
           </div>
         </li>
         <li>
           <img src="./styles/images/Wide-short-Helping-Hand.jpg">
           <div class="caption left-align">
-            <h3 class="pitch-header">COMMUNITY</h3>
+            <h4 class="pitch-header">COMMUNITY</h4>
             <h5 class="pitch-subheader light">to make you your best</h5>
           </div>
         </li>
         <li>
           <img src="./styles/images/semi-wide-handstand.jpg">
           <div class="caption right-align">
-            <h3 class="pitch-header">HIGH INTENSITY</h3>
+            <h4 class="pitch-header">HIGH INTENSITY</h4>
             <h5 class="pitch-subheader light">scaled to you</h5>
           </div>
         </li>
         <li>
           <img src="./styles/images/Data-Driven-800x400.jpg">
           <div class="caption center-align">
-            <h3 class="pitch-header">DATA DRIVEN WORKOUTS</h3>
+            <h4 class="pitch-header">DATA DRIVEN WORKOUTS</h4>
             <h5 class="pitch-subheader light">precision and motivation</h5>
           </div>
         </li>
@@ -74,24 +75,24 @@
             </div>
           </div>
           <div class="row">
-            <div class="col s10 offset-s1 m8 offset-m2">
-              <a class="center-align waves-effect waves-light btn red">Use Current Location</a>
+            <div class="col s10 offset-s1 m8 offset-m2 center-align">
+              <a href="https://map.crossfit.com/" class="waves-effect waves-light btn red">Use Current Location</a>
             </div>
           </div>
           <div class="row">
-            <div class="col s2 offset-s5">
-              <h5 class="center-align">OR</h5>
+            <div class="col s2 offset-s5 center-align">
+              <h5>OR</h5>
             </div>
           </div>
           <div class="row">
-            <form class="col s12" action="yourGym.html" method="get">
+            <form class="col s12" action="https://map.crossfit.com/" method="get">
               <div class="row">
                 <div class="input-field col s6">
                   <input id="zipcode" type="number" min="5" class="validate">
                   <label class="center-align" for="zipcode" data-error="incorrect" data-success"right">ENTER ZIPCODE</label>
                 </div>
                 <div id="zip-submit" class="col s6">
-                  <a class="waves-effect waves-light btn red"><i class="small material-icons left">play_arrow</i>GO</a>
+                  <a class="waves-effect waves-light btn red">GO<i class="small material-icons right">play_arrow</i></a>
                 </div>
               </div>
             </form>
@@ -99,56 +100,52 @@
         </div>
       </div>
     </div>
+    <hr>
     <div class="row">
       <div class="col s12 m8 offset-m2">
-        <div class="card-panel" id="community-stories-card">
+        <div class="card-panel section-card">
           <h3 class="center-align">Community Stories</h3>
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row stories-carousel">
       <div class="carousel">
-        <a class="carousel-item" href="#one!"><img src="./styles/images/stories-transformations.jpg"></a>
-        <a class="carousel-item" href="#two!"><img src="./styles/images/stories-older-athletes.jpg"></a>
-        <a class="carousel-item" href="#three!"><img src="./styles/images/stories-kids.jpg"></a>
-        <a class="carousel-item" href="#four!"><img src="./styles/images/stories-adaptive-athletes.jpg"></a>
+        <h4 id="stories-title" class="pitch-header center-align">TRANSFORMATIONS</h4>
+        <a class="carousel-item" id="TRANSFORMATIONS" href="#one!"><img src="./styles/images/stories-transformations.jpg"></a>
+        <a class="carousel-item" id="OLDER ATHLETES" href="#two!"><img src="./styles/images/stories-older-athletes.jpg"></a>
+        <a class="carousel-item" id="KIDS" href="#three!"><img src="./styles/images/stories-kids.jpg"></a>
+        <a class="carousel-item" id="ADAPTIVE ATHLETES" href="#four!"><img src="./styles/images/stories-adaptive-athletes.jpg"></a>
+      </div>
+      <div id="stories-links">
+        <a id="story-0" class="stories-link center-align valign" href="">I Am Ivan</a>
+        <a id="story-1" class="stories-link center-align valign" href="">Meet Shari Keener: Changing the Pattern</a>
+        <a id="story-2" class="stories-link center-align valign" href="">Tim Baldry Story</a>
       </div>
     </div>
-    <div class="row">
-      <div class="col s12 m8 offset-m2">
-        <div class="card-panel" id="community-stories-card">
-          <h3 class="center-align">Crossfit Journal</h3>
-        </div>
-      </div>
-    </div>
-    <footer class="page-footer">
+    <hr id="carousel-divider">
+    <footer class="page-footer grey darken-2">
       <div class="container">
         <div class="row">
-          <div class="col l6 s12">
-            <p class="grey-text text-lighten-4"></p>
-          </div>
-          <div class="col s6 offset-s3">
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="what.html">What is CrossFit?</a></li>
-              <li><a class="grey-text text-lighten-3" href="movements.html">Foundational movements</a></li>
+            <ul class="center-align">
+              <li><a class="grey-text text-lighten-3" href="https://www.crossfit.com/what-is-crossfit">What is CrossFit?</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://www.crossfit.com/exercisedemos/">Foundational movements</a></li>
               <li><a class="grey-text text-lighten-3" href="https://map.crossfit.com/">Find your gym</a></li>
               <li><a class="grey-text text-lighten-3" href="https://www.crossfit.com/cf/faq">FAQ</a></li>
               <li><a class="grey-text text-lighten-3" href="https://www.crossfit.com/cf/contact">Contact Us</a></li>
             </ul>
-          </div>
         </div>
         <div class="row">
-          <div class="col s6 offset-s3 m4 offset-m4">
-            <img src="./styles/images/glyphicons-social-31-facebook.png" />
-            <img src="./styles/images/glyphicons-social-32-twitter.png" />
-            <img src="./styles/images/glyphicons-social-33-instagram.png" />
-            <img src="./styles/images/glyphicons-social-23-youtube.png" />
+          <div class="col s6 offset-s3 m4 offset-m4 center-align">
+            <a href="https://www.facebook.com/crossfit" target="_blank"><img src="./styles/images/glyphicons-social-31-facebook.png" /></a>
+            <a href="https://twitter.com/crossfit" target="_blank"><img src="./styles/images/glyphicons-social-32-twitter.png" /></a>
+            <a href="https://www.instagram.com/crossfit/" target="_blank"><img src="./styles/images/glyphicons-social-33-instagram.png" /></a>
+            <a href="https://www.youtube.com/crossfit" target="_blank"><img src="./styles/images/glyphicons-social-23-youtube.png" /></a>
           </div>
         </div>
       </div>
-      <div class="footer-copyright">
+      <div class="footer-copyright grey darken-3">
         <div class="container">
-          © 2016 CrossFit, Inc. CrossFit, Forging Elite Fitness, 3,2,1...Go!, Fittest on Earth and Sport of Fitness are trademarks of CrossFit, Inc. in the U.S. and/or other countries. All Rights Reserved
+          <span>© 2016 CrossFit, Inc. CrossFit, Forging Elite Fitness, 3,2,1...Go!, Fittest on Earth and Sport of Fitness are trademarks of CrossFit, Inc. in the U.S. and/or other countries. All Rights Reserved</span>
         </div>
       </div>
     </footer>

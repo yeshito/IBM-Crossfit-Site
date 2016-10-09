@@ -1,19 +1,34 @@
 body {
-  background-color: black;
+  background-color: #212121;
+  font-family: oswald, serif;
 }
-
+.button-collapse {
+  margin-right: 1rem;
+}
 /*Pitch Carousel*/
 .pitch-header {
   /*color: #FF951D;*/
-  color: black;
-  text-shadow: -.1rem -.1rem  0 #FF3700,
-                .1rem -.1rem  0 #FF3700,
-                -.1rem .1rem  0 #FF3700,
-                .1rem .1rem  0 #FF3700;
+  color: white;
+  text-shadow: -.1rem -.1rem  0 black,
+                .1rem -.1rem  0 black,
+                -.1rem .1rem  0 black,
+                .1rem .1rem  0 black;
+  font-family: arvo, serif;
 }
 .pitch-subheader {
-  color: #FFC700;
+  color: #ffeb3b;
   text-shadow: .1rem .1rem black;
+  font-family: oswald, cursive;
+}
+.caption {
+  background-color: rgba(255, 120, 10, 0.5);
+  display: block;
+}
+.caption.left-align {
+  padding-left: .6rem;
+}
+.caption.right-align {
+  padding-right: .6rem;
 }
 /*End Pitch Carousel*/
 
@@ -38,21 +53,31 @@ body {
 #zip-submit {
   margin-top: 13px;
 }
+/*End Find your gym*/
+
+hr {
+  width: 85%;
+  margin-bottom: 1.4rem;
+}
 .card-panel {
   padding: .5rem 0 0 0;
   border-top: .2rem solid black;
   border-bottom: .2rem solid black;
 }
-#community-stories-card {
+.section-card {
   padding-bottom: 1rem;
   background-color: #FFC700;
 }
 #stories-carousel {
-  margin: 0;
+  padding: 0;
+  margin-top: 0;
 }
-.carousel {
-  margin: 0;
+#stories-links {
+  margin-top: 3rem;
 }
-.carousel-item {
-  margin: 0;
+.stories-link {
+  display: block;
+}
+#carousel-divider {
+  margin-top: 3rem;
 }
