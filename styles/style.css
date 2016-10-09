@@ -1,9 +1,7 @@
 body {
   background-color: black;
 }
-.row {
-  margin: 0;
-}
+
 /*Pitch Carousel*/
 .pitch-header {
   /*color: #FF951D;*/
@@ -53,8 +51,8 @@ body {
   margin: 0;
 }
 .carousel {
-  margin: 0 !important;
+  margin: 0;
 }
 .carousel-item {
-  margin: 0 !important;
+  margin: 0;
 }
