@@ -1,3 +1,10 @@
+body {
+  background-color: black;
+}
+.row {
+  margin: 0;
+}
+/*Pitch Carousel*/
 .pitch-header {
   /*color: #FF951D;*/
   color: black;
@@ -9,6 +16,12 @@
 .pitch-subheader {
   color: #FFC700;
   text-shadow: .1rem .1rem black;
+}
+/*End Pitch Carousel*/
+
+/*Find your Gym*/
+#find-your-gym {
+  margin: 0;
 }
 .input-field label {
   color: black;
@@ -24,16 +37,24 @@
   border: .24rem solid #FFC700;
   box-shadow: 0 .1rem .1rem 0 gray;
 }
+#zip-submit {
+  margin-top: 13px;
+}
 .card-panel {
   padding: .5rem 0 0 0;
+  border-top: .2rem solid black;
+  border-bottom: .2rem solid black;
 }
-.carousel {
-  margin: 0;
-  padding: 0;
+#community-stories-card {
+  padding-bottom: 1rem;
+  background-color: #FFC700;
 }
 #stories-carousel {
   margin: 0;
 }
-#zip-submit {
-  margin-top: 13px;
+.carousel {
+  margin: 0 !important;
+}
+.carousel-item {
+  margin: 0 !important;
 }
